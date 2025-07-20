@@ -5,17 +5,17 @@ body {
   margin: 0px;
   padding: 0px;
   overflow-x: hidden;
-  position: relative
+  position: relative;
+  font-family: "Patrick Hand", cursive;
 }
 
-body,
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-family: "Amatic SC", sans-serif
+  font-family: "Knewave", sans-serif
 }
 
 .menu {
@@ -41,10 +41,11 @@ h6 {
 /* Add some shadows to create a card effect */
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  background-color: #fbfbff;
-  /* color: #fff;
+  /* background-color: #fbfbff; */
+  font-family: "Patrick Hand", cursive !important;
+  color: #fff;
   background-color: #400000;
-  border: 2px solid #fff; */
+  border: 2px solid #fff;
 }
 
 /* Some left and right padding inside the container */
@@ -54,9 +55,10 @@ h6 {
 
 .card-container {
   display:grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   gap: 1rem; /* space between cards */
   padding: 1rem;
+  font-family: "Patrick Hand", cursive !important;
 }
 
 .quote-container {
