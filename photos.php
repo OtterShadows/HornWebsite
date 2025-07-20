@@ -10,7 +10,7 @@
     <link rel="stylesheet"
       href="https://fonts.googleapis.com/css?family=Amatic+SC">
       <link rel="stylesheet"
-      href="styles.css">
+      href="styles.css?v=2">
     
   <style>
     input {
@@ -48,6 +48,12 @@
     img:hover {opacity: 0.7;}
 
   </style>
+
+  <!-- for fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fugaz+One&family=Knewave&family=Patrick+Hand&family=Rock+Salt&display=swap" rel="stylesheet">
+
   </head>
   <body vlink="#551A8B" text="#000000" bgcolor="#B31B1B" alink="#EE0000"
     link="#0000EE" style="margin-right:100px">
