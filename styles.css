@@ -48,6 +48,13 @@ h6 {
   padding: 0 16px;
 }
 
+.card-container {
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem; /* space between cards */
+  padding: 1rem;
+}
+
 /* Clear floats */
 .container::after,
 .row::after {
