@@ -59,6 +59,24 @@ h6 {
   padding: 1rem;
 }
 
+.quote-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.quote-card {
+  background-color: #e62b2b;
+  border: 3px solid #fff9e7;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  font-family: "Rock Salt", cursive;
+  font-size: 1.5em;
+  color:#fff;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
 /* Clear floats */
 .container::after,
 .row::after {
