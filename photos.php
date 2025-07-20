@@ -10,7 +10,7 @@
     <link rel="stylesheet"
       href="https://fonts.googleapis.com/css?family=Amatic+SC">
       <link rel="stylesheet"
-      href="styles.css">
+      href="styles.css?v=2">
     
   <style>
     input {
